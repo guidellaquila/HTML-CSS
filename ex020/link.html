@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: rgb(146, 12, 12);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: rgb(70, 2, 2);
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color: rgb(199, 187, 20);
+        }
+        a::after{
+            content: ' \21B5';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgba(233, 35, 35, 0.76);
+        }
+        a::before{
+            content: '*';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgba(233, 35, 35, 0.76);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://x.com/mlkstorm" target="_blank">Twitter</a></li>
+        <li><a href="https://www.instagram.com/incwrsio/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.twitch.tv/mlkstorm" target="_blank">Twitch</a></li>
+    </ul>
+</body>
+</html>
